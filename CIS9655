@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from numpy.random import randn
+import pandas as pd
+from datetime import datetime
+
+data = pd.read_csv('Covid-19.csv', index_col=0, parse_dates=True)
+data
